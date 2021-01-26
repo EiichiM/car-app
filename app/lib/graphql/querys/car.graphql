@@ -1,0 +1,14 @@
+query Car($streamId: ObjectId!) {
+  car(carId: $streamId) {
+    _id
+    make
+    model
+    estimadeDate
+    description
+    image
+    author {
+      _id
+      email
+    }
+  }
+}

@@ -1,0 +1,10 @@
+mutation EditCar($input: CarInputs!) {
+  editCar(input: $input) {
+    _id
+    make
+    model
+    description
+    estimadeDate
+    image
+  }
+}

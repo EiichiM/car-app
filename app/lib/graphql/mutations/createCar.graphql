@@ -1,0 +1,10 @@
+ mutation AddCar($input:CarInputs!){
+  addCar(input:$input){
+    _id
+    make
+    description
+    model
+    estimadeDate
+    image
+  }
+}
