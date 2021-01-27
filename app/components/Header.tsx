@@ -33,8 +33,8 @@ export default function Header({ darkState, handleThemeChange }) {
     const links = [
         !user && { label: 'Sign Up', href: '/auth/signUp' },
         !user && { label: 'Sign In', href: '/auth/signIn' },
-        user && { label: 'Create Stream', href: '/streams/new' },
-        user && { label: 'Create Car', href: '/cars/new' },
+        user && { label: 'Create Stream', href: '/streams/newStream' },
+        user && { label: 'Create Car', href: '/cars/newCar' },
         user && { label: 'Sign Out', href: '/auth/signOut' },
     ]
         .filter((link) => link)
