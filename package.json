@@ -1,0 +1,27 @@
+{
+  "name": "car-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "yarn workspace @car-app/app run build",
+    "start": "yarn workspace @car-app/api run start",
+    "dev": "yarn workspace @car-app/api run dev"
+  },
+  "workspaces": [
+    "api",
+    "app"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EiichiM/car-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EiichiM/car-app/issues"
+  },
+  "homepage": "https://github.com/EiichiM/car-app#readme"
+}
