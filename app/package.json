@@ -9,7 +9,7 @@
     "start": "next start"
   },
   "keywords": [],
-  "author": "",
+  "author": "Eiichi Matsuo",
   "license": "ISC",
   "dependencies": {
     "@apollo/client": "^3.3.7",

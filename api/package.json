@@ -8,7 +8,7 @@
     "dev": "nodemon server/index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Eiichi Matsuo",
   "license": "ISC",
   "dependencies": {
     "@typegoose/typegoose": "^7.4.8",
